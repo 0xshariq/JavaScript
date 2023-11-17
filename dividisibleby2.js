@@ -1,0 +1,7 @@
+var divisor = 2 ;
+var dividend = prompt("Enter a number to divide");
+if (dividend % divisor == 0) {
+    document.write("The number is divisible by 2");
+} else {
+   document.write("The number is not divisible by 2);
+}
