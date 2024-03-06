@@ -1,5 +1,6 @@
 // object
-
+// adding in object using bracket notation 
+let key = "email";
 const person = {
   name : "Sharique",
   age : 22,
@@ -11,13 +12,20 @@ const person = {
     country : "India"
   }
 }
-
+// another method to print object key value
+console.log(person["name"]);
 console.log(person.name);
 console.log(person.age);
 console.log(person.gender);
 console.log(person.hobbies[0],person.hobbies[1]);
+
+
 console.log(person.address.city);
 console.log(person.address.country);
 console.log(person.address.district);
 person.address.building = "Palace";
 console.log(person.address.building);
+
+
+person[key] = "ztejd@example.com";
+console.log(person[key]);
