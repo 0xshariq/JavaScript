@@ -19,3 +19,5 @@ console.log(person.hobbies[0],person.hobbies[1]);
 console.log(person.address.city);
 console.log(person.address.country);
 console.log(person.address.district);
+person.address.building = "Palace";
+console.log(person.address.building);
