@@ -221,3 +221,49 @@ console.log(newArray);
 const myArray = ["item1","item2","item3"];
 myArray.splice(0,2,"inserted item4","inserted item5");
 console.log(myArray);
+
+
+
+// slice method
+// start , end (not included)
+// it returns a new array
+// it slices the array and returns the new array
+const myArray =["item1","item2","item3"];
+const newArray = myArray.slice(0,2);
+console.log(newArray);
+
+
+
+// concat method
+// it returns a new array
+// it concatenates the array
+const myArray =["item1","item2","item3"];
+const newArray = myArray.concat("item4","item5");
+console.log(newArray);
+
+
+
+// indexOf method
+// it returns the index of the element
+// it returns -1 if the element is not present in the array
+// it takes an optional second argument as the index from where the search should start
+// it takes an optional third argument as the index from where the search should end
+// it searches the element from left to right
+const myArray =["item1","item2","item3"];
+const index = myArray.indexOf("item1");
+console.log(index);
+
+
+
+// lastIndexOf method
+// it returns the index of the element
+// it returns -1 if the element is not present in the array
+// it takes an optional second argument as the index from where the search should start
+// it takes an optional third argument as the index from where the search should end
+// it searches the element from left to right
+const myArray =["item1","item2","item3"];
+const index = myArray.lastIndexOf("item1");
+console.log(index)
+
+
+
