@@ -263,7 +263,34 @@ console.log(index);
 // it searches the element from left to right
 const myArray =["item1","item2","item3"];
 const index = myArray.lastIndexOf("item1");
-console.log(index)
+console.log(index);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
